@@ -1,6 +1,6 @@
 package com.jtt.hhl.controller;
 
-import com.jtt.hhl.springboothello.SpringBootHelloApplicationTests;
+import com.jtt.hhl.SpringBootHelloApplicationTests;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.MediaType;

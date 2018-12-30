@@ -1,4 +1,4 @@
-package com.jtt.hhl.springboothello;
+package com.jtt.hhl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

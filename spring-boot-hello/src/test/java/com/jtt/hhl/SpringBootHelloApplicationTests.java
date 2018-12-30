@@ -1,4 +1,4 @@
-package com.jtt.hhl.springboothello;
+package com.jtt.hhl;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
