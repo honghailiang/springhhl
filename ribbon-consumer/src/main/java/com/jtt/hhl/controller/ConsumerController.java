@@ -1,5 +1,6 @@
 package com.jtt.hhl.controller;
 
+import com.jtt.hhl.Service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,11 +15,10 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerController {
 
     @Autowired
-    RestTemplate restTemplate;
+    HelloService helloService;
 
     @GetMapping("/ribbon-consumer")
     public String helloConsumer () {
-        return restTemplate.getForEntity("http://EUREKA-CLIENT/hello",
-                String.class).getBody();
+        return helloService.helloService();
     }
 }

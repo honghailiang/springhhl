@@ -27,7 +27,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String index(){
         String services = "Services: " + discoveryClient.getServices()+" ip :" + ip;
-        logger.error(services);
+        logger.info(services);
         return "Hello World";
     }
 }
