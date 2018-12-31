@@ -8,16 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Description: java类作用描述
  * @Author: Herman
- * @CreateDate: 2018/12/31 17:08
+ * @CreateDate: 2019/1/1 1:11
  */
 @RestController
 public class ConsumerController {
-
     @Autowired
-    HelloService helloService;
+    private HelloService helloService;
 
-    @GetMapping("/ribbon-consumer")
-    public String helloConsumer () {
-        return helloService.helloService();
+    @GetMapping("/feign-consumer")
+    public String helloConsumer(){
+        return helloService.hello();
     }
 }

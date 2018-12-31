@@ -1,4 +1,4 @@
-package com.jtt.hhl.Service;
+package com.jtt.hhl.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
