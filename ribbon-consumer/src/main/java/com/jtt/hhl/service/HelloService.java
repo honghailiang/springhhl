@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @Description: java类作用描述
+ * @Description: 服务消费服务
  * @Author: Herman
  * @CreateDate: 2019/1/1 0:14
  */

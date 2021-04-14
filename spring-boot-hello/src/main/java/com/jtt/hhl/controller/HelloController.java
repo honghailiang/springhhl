@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description: java类作用描述
+ * @Description: springboot示例
  * @Author: Herman
  * @CreateDate: 2018/12/30 20:48
  */
