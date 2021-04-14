@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Description: java类作用描述
+ * @Description: 自定义过滤器  访问鉴权
  * @Author: Herman
  * @CreateDate: 2019/1/3 16:31
  */

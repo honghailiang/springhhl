@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description: java类作用描述
+ * @Description: 调用feign声明式服务
  * @Author: Herman
  * @CreateDate: 2019/1/1 1:11
  */
